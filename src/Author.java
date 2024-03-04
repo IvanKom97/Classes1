@@ -1,7 +1,6 @@
-import javax.xml.namespace.QName;
-import java.security.PublicKey;
 
 public class Author {
+
     private String name;
     private String secondName;
 

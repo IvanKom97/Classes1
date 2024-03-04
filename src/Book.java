@@ -1,4 +1,5 @@
 public class Book {
+    private Author author;
     private String nameOfBook;
     private int year;
 
@@ -17,6 +18,6 @@ public class Book {
 
     public void setYear(int year) {
         System.out.println("Год выпуска: " + year);
-        year = this.year;
+        this.year = year;
     }
 }
