@@ -6,6 +6,7 @@ public class Book {
     public Book(int year, String nameOfBook, Author author) {
         this.year = year;
         this.nameOfBook = nameOfBook;
+        this.author = author;
     }
 
     public int getYear() {
@@ -17,7 +18,10 @@ public class Book {
     }
 
     public void setYear(int year) {
-        System.out.println("Год выпуска: " + year);
         this.year = year;
+    }
+
+    public Author getAuthor() {
+        return this.author;
     }
 }

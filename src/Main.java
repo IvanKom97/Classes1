@@ -6,5 +6,6 @@ public class Main {
         Book book1 = new Book(1546, "name", author1);
         book1.setYear(1786);
         System.out.println(book1.getYear());
+        System.out.println(book.getAuthor());;
     }
 }
