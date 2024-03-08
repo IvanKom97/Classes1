@@ -5,7 +5,8 @@ public class Main {
         Author author1 = new Author("Uilyam", "Greem");
         Book book1 = new Book(1546, "name", author1);
         book1.setYear(1786);
-        System.out.println(book1.getYear());
-        System.out.println(book.getAuthor());;
+        System.out.println(book.equals(book1));
+        System.out.println(book1.toString());
+        System.out.println(book.hashCode());
     }
 }
